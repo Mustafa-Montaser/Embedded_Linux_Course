@@ -21,8 +21,9 @@ def run_task_3():
 
 
 def run_task_4():
-    radius = int(input("Enter radius value: "))
-    print("Circle Area = " + str(radius * radius * 3.14) + " unit square")
+    from math import pi
+    radius = float(input("Enter radius value: "))
+    print("Circle Area = " + str(pi * (radius ** 2)) + " unit square")
 
 def run_task_null():
     print("Error task ID")
