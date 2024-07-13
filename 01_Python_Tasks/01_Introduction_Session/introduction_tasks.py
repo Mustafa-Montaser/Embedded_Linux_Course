@@ -43,7 +43,7 @@ def select_task(task_id):
         4: run_task_4,
         5: run_task_5,
     }
-    if task_id in range(0, (len(tasks.keys()) + 1)):
+    if task_id in range(1, (len(tasks.keys()) + 1)):
         tasks[task_id]()
     else:
         run_task_null()
